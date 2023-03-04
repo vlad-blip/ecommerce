@@ -1,0 +1,114 @@
+@use "../utilities/variables" as var;
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 138%;
+}
+
+.base {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 19px;
+}
+
+.info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: -0.2px;
+}
+
+.small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+
+  letter-spacing: -0.2px;
+}
+
+.h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 133%;
+
+  letter-spacing: -0.2px;
+}
+
+.h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 140%;
+
+  letter-spacing: -0.2px;
+}
+
+.h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+
+  letter-spacing: -1.6px;
+}
+
+.btn-normal {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.btn-large {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.btn-small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
