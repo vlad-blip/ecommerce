@@ -1,11 +1,10 @@
 import NavButton from "./NavButton";
-import styles from "./NavList.module.scss";
 import Menu from "./Menu";
 
 const NavList = () => {
   return (
-    <ul className={styles.nav_list}>
-      <li>
+    <ul className="flex gap-2 py-4 px-4">
+      <li className="hidden md:block">
         <Menu />
       </li>
       <li>

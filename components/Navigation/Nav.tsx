@@ -1,19 +1,25 @@
-import styles from "./Nav.module.scss";
-import IconDe from "../../assets/de.svg";
+import Image from "next/image";
+
 import NavList from "./NavList";
 import NavButton from "./NavButton";
 
 const Nav = () => {
   return (
-    <nav className={`${styles.nav_container} container`}>
+    <nav className="flex gap-4 overflow-auto">
       <NavList />
-      <ul className={styles.right_side}>
+      <ul className="md:flex gap-2 hidden">
         <li>
           <NavButton>English, USD</NavButton>
         </li>
         <li>
           <NavButton>
-            Ship to <img src={IconDe} alt="Germany flag" />
+            <span>Ship to</span>
+            <Image
+              src="/icons/de.svg"
+              width={20}
+              height={20}
+              alt="Germany flag"
+            />
           </NavButton>
         </li>
       </ul>
