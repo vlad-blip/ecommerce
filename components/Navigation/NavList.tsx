@@ -3,8 +3,8 @@ import Menu from "./Menu";
 
 const NavList = () => {
   return (
-    <ul className="flex gap-2 py-4 px-4">
-      <li className="hidden md:block">
+    <ul className="flex gap-2 md:py-2 py-4 md:px-0 items-center px-4">
+      <li className="hidden md:flex items-center">
         <Menu />
       </li>
       <li>

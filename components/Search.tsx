@@ -21,7 +21,7 @@ export default function Search({ className }: { className: string }) {
         alt="Search icon"
       />
       <input
-        className="w-full pl-10 bg-inherit"
+        className="w-full outline-0 pl-10 bg-inherit"
         type="text"
         placeholder="Search"
         value={searchInput}
