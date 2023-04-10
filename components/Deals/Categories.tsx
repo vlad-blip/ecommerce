@@ -5,14 +5,14 @@ type Props = {
 };
 
 const categories = [
-  "Automobiles",
-  "Clothes and wear",
-  "Home Interiors",
-  "Computer and tech",
-  "Tools, equipments",
-  "Sports and outdoor",
-  "Animal and pets",
-  "Machinery tools",
+  "Smart watches",
+  "Gaming chairs",
+  "Smartphones",
+  "Tablets",
+  "Laptops",
+  "TVs",
+  "Powerbanks",
+  "Smart home",
   "More category",
 ];
 

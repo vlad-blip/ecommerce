@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .grid-cols-flexible {
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    }
+}

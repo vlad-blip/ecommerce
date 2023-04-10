@@ -5,7 +5,7 @@ import NavButton from "./NavButton";
 
 const Nav = () => {
   return (
-    <nav className="md:border-y-2 md:mb-10">
+    <nav className="bg-white md:border-y-2 md:mb-10">
       <div className="flex gap-4 justify-between overflow-auto md:w-4/5 md:mx-auto">
         <NavList />
         <ul className="md:flex gap-2 hidden items-center">
